@@ -10,7 +10,7 @@ function fExpMain(design,stimuli,practice)
 % -- design : structure containing details about the experimental
 %                    design, see parameters in Start_EEG_Experiment
 % -- stimuli : actual frequency sequecnes to use
-% -- practice : 0 for practice session, 1 for actual recording session -
+% -- practice : 1 for practice session, 0 for actual recording session -
 %               determines whether triggers are sent / psychtoolbox screen
 %               initialised
 %__________________________________________________________________________

@@ -41,7 +41,7 @@ design.dob              = rand(1);
 design.whichBlock       = 1;
 saveStim                = 1;
 savePath                = 'sampleSounds/OmissionNA/';
-vrs                     = '';   % string describing stimulus generation version
+vrs                     = '1';   % string describing stimulus generation version
 mkdir(savePath);
 
 [design, stimuli] = fDesignStimuli(design);
